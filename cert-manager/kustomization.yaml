@@ -8,11 +8,10 @@ helmCharts:
     version: 1.9.1
     valuesFile: values.yaml
     releaseName: cert-manager
-    includeCRDs: true
 
 
 resources:
   - clusterissuer.yaml
   - https://github.com/cert-manager/cert-manager/releases/download/v1.12.1/cert-manager.yaml
   
-namespace: cert-manage
+namespace: cert-manager
