@@ -9,4 +9,4 @@ helmCharts:
   version: 25.27.0
   valuesFile: values.yaml
 
-namespace: monitoring
+namespace: sharedtooling

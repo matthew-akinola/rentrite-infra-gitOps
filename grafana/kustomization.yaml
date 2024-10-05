@@ -10,4 +10,4 @@ helmCharts:
     includeCRDs: true
 
 
-namespace: monitoring
+namespace: sharedtooling
