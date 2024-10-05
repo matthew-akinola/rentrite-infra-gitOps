@@ -1132,6 +1132,11 @@ cainjector:
     # Automount API credentials for a Service Account.
     automountServiceAccountToken: true
 
+    annotations:
+      helm.sh/hook: post-install
+      helm.sh/hook-delete-policy: before-hook-creation, hook-suceeded
+      helm.sh/hook-weight: "-5"
+
   # Automounting API credentials for a particular pod.
   # +docs:property
   # automountServiceAccountToken: true

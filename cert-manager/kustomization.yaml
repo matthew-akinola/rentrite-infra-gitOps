@@ -15,4 +15,4 @@ resources:
   - clusterissuer.yaml
   - https://github.com/cert-manager/cert-manager/releases/download/v1.12.1/cert-manager.yaml
   
-namespace: cert-manager
+namespace: cert-manage
