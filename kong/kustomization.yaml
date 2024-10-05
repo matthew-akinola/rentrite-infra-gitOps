@@ -4,7 +4,7 @@ kind: Kustomization
 helmCharts:
   - name: kong
     repo: https://charts.konghq.com
-    version: 2.42.0
+    version: 2.26.5
     valuesFile: values.yaml
     releaseName: kong
     includeCRDs: true
