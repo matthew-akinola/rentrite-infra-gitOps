@@ -12,7 +12,7 @@ helmCharts:
 
 
 resources:
-  - clusterissuer.yaml
+  # - clusterissuer.yaml
   # - https://github.com/jetstack/cert-manager/releases/download/v1.5.3/cert-manager.yaml
   # - https://github.com/cert-manager/cert-manager/releases/download/v1.12.1/cert-manager.yaml
   
