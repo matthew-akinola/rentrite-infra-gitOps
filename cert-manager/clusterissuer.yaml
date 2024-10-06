@@ -4,12 +4,13 @@ metadata:
   name: infra-dev-letsencrypt
   namespace: cert-manager
 spec:
-  acme:
-    server: https://acme-v02.api.letsencrypt.org/directory
-    email: akinolatolulope24@gmail.com
-    privateKeySecretRef:
-      name: infra-dev-letsencrypt
-    solvers:
-      - http01:
-          ingress:
-            class: nginx
+  selfSigned: {}
+  # acme:
+  #   server: https://acme-v02.api.letsencrypt.org/directory
+  #   email: akinolatolulope24@gmail.com
+  #   privateKeySecretRef:
+  #     name: infra-dev-letsencrypt
+  #   solvers:
+  #     - http01:
+  #         ingress:
+  #           class: nginx
