@@ -1,4 +1,4 @@
-# Default values for Kong's Helm Chart.
+ # Default values for Kong's Helm Chart.
 # Declare variables to be passed into your templates.
 #
 # Sections:
